@@ -23,6 +23,7 @@ const extractFirstTwo = ([first, second]) => [first, second];
 
 const extractRest = ([, ...rest]) => rest;
 
+
 /**
  * utilisez la décomposition pour extraire le champ "name" de l'objet passé en paramètre
  * retournez le champ "name"

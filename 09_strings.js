@@ -10,6 +10,25 @@
  *  - ne pas utiliser la fonction concat de String
  */
 
-const concat = (firstName, lastName) => {}
+/**
+ * Concatène le prénom et le nom en utilisant les littéraux de gabarit.
+ * @param {string} firstName - 
+ * @param {string} lastName - 
+ */
+const concat = (firstName, lastName) => `${firstName} ${lastName}`;
 
 module.exports = {concat};
+
+// Exemple d'utilisation :
+console.log(concat('John', 'Doe')); // Affichera "John Doe"
+
+module.exports = {concat};
+
+
+
+
+
+
+
+
+
