@@ -16,6 +16,14 @@
  * 
  */
 
-const getGroupName = (obj) => {}
+const user = {
+    name: 'John',
+    group: { name: 'admin' }  
+  };
+  
+  console.log(getGroupName(user)); 
+  
+  const getGroupName = (user) => user.group?.name;
 
-module.exports = {getGroupName};
+console.log(getGroupName(userWithoutGroup)); //  'undefined'
+
